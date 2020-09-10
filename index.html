@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Basava Blog</title>
+      </head>
+      <body>
+        
+                
+                        <nav class="nav_bar d-flex px-3 justify-content-between" >
+                            <div class="menu-icon"><span class="fas fa-bars fa-2x text-light"</span></div>
+                            <div class="logo"> <img class= "fri" src="images/logo1.png" alt="Logo"><span>Tech</span></div>
+                            <div class="nav-items">
+                                <li><a class="active" href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Feedback</a></li> 
+                            </div>
+                            <div class="search-icon"><span class="fas fa-search fa-2x"></span></div>
+                            <div class="cancel-icon"><span class="fas fa-times fa-2x"></span></div>
+                            <form action="#">
+                                <input type="search" class="search-data" placeholder="search" required>
+                                <button type="submit" class="fas fa-search" onclick=""></button>
+                            </form>
+                        </nav>
+                    
+           
+        
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="main_heading"> Friends Tech </h1>
+                <p class="main_heading__para">Welcome to my <span class="text-capitalize bg-dark text-white py-2 px-3"> website of blog </span> </p>
+            </div>
+
+            <div class="main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+                <p> Friends Tech </p>
+                <h2 class="animateWord">
+                    <span> He is a</span>
+                    <div>
+                        <ul class="flip">
+                            <li>Programmer</li>
+                            <li>Developer</li>
+                            <li>Freelancer</li>
+                            <li>Blogger</li>
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase"> Subscribe </button>
+            </div>
+        </header>
+
+        <!-- header ends -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- to get the left and right side dive space -->
+                <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- to get the left side of the div space -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5">
+                                <!-- our first post code -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                        <h1> Best Laptop in 2020 </h1>
+                                        <p class="blog_title"><span class="font-weight-bold">Title description,</span> Aug 12, 2020  </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/3740739/pexels-photo-3740739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                    </figure>
+                                    <p> <span class=" font-weight-bold">Friends Tech</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente quasi officia ab dolores alias dolorem fugit optio in, ratione eum earum necessitatibus tempore perspiciatis? Consequuntur autem dolor sed. Beatae animi deserunt unde possimus, consequatur numquam perspiciatis reiciendis doloremque cum atque? Ipsa cumque eveniet adipisci doloribus at nihil maxime sequi.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur ab natus magnam, quod deleniti quia quos odit! Dignissimos, placeat.</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div_like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"> Like </i>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div_reply" onclick="reply('reply1')">
+                                                <i class="fas fa-thumbs-up"> Replies<badge class="bg-light text-success mx-2 p-2">1</badge> </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                            <div class="reply_img mx-2 align-items-center">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" alt="">
+                                            </div>
+                                            <div class="reply_text_left">
+                                                <p class="blog_title">
+                                                    <span class="font-weight-bold">Basava,</span><span> Aug 12, 2020, 7:20 PM</span>
+                                                </p>
+                                                <p> Awesome, Bro I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- our second post code -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                        <h1> Best Laptop in 2020 </h1>
+                                        <p class="blog_title"><span class="font-weight-bold">Title description,</span> Aug 12, 2020  </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                    </figure>
+                                    <p> <span class=" font-weight-bold">Friends Tech</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente quasi officia ab dolores alias dolorem fugit optio in, ratione eum earum necessitatibus tempore perspiciatis? Consequuntur autem dolor sed. Beatae animi deserunt unde possimus, consequatur numquam perspiciatis reiciendis doloremque cum atque? Ipsa cumque eveniet adipisci doloribus at nihil maxime sequi.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur ab natus magnam, quod deleniti quia quos odit! Dignissimos, placeat.</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div_like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"> Like </i>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div_reply" onclick="reply('reply2')">
+                                                <i class="fas fa-thumbs-up"> Replies <badge class="bg-light text-success mx-2 p-2">2</badge> </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                            <div class="reply_img mx-2 align-items-center">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" alt="">
+                                            </div>
+                                            <div class="reply_text_left">
+                                                <p class="blog_title">
+                                                    <span class="font-weight-bold"> Mahesh,</span><span> Aug 12, 2020, 7:20 PM</span>
+                                                </p>
+                                                <p> Awesome, I love your Attitude.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- our third post code -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                        <h1> Best Laptop in 2020 </h1>
+                                        <p class="blog_title"><span class="font-weight-bold">Title description,</span> Aug 12, 2020  </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                    </figure>
+                                    <p> <span class=" font-weight-bold">Friends Tech</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente quasi officia ab dolores alias dolorem fugit optio in, ratione eum earum necessitatibus tempore perspiciatis? Consequuntur autem dolor sed. Beatae animi deserunt unde possimus, consequatur numquam perspiciatis reiciendis doloremque cum atque? Ipsa cumque eveniet adipisci doloribus at nihil maxime sequi.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur ab natus magnam, quod deleniti quia quos odit! Dignissimos, placeat.</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div_like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"> Like </i>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div_reply" onclick="reply('reply3')">
+                                                <i class="fas fa-thumbs-up"> Replies<badge class="bg-light text-success mx-2 p-2">3</badge> </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                            <div class="reply_img mx-2 align-items-center">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" alt="">
+                                            </div>
+                                            <div class="reply_text_left">
+                                                <p class="blog_title">
+                                                    <span class="font-weight-bold">Karthik,</span><span> Aug 12, 2020, 7:20 PM</span>
+                                                </p>
+                                                <p> Fantastic, I appreciate your talent.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <!-- our fourth post code -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                        <h1> Best Laptop in 2020 </h1>
+                                        <p class="blog_title"><span class="font-weight-bold">Title description,</span> Aug 12, 2020  </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/3787573/pexels-photo-3787573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                    </figure>
+                                    <p> <span class=" font-weight-bold">Friends Tech</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente quasi officia ab dolores alias dolorem fugit optio in, ratione eum earum necessitatibus tempore perspiciatis? Consequuntur autem dolor sed. Beatae animi deserunt unde possimus, consequatur numquam perspiciatis reiciendis doloremque cum atque? Ipsa cumque eveniet adipisci doloribus at nihil maxime sequi.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto consequatur ab natus magnam, quod deleniti quia quos odit! Dignissimos, placeat.</p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div_like" id="like_btn">
+                                                <i class="fas fa-thumbs-up"> Like </i>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div_reply" onclick="reply('reply4')">
+                                                <i class="fas fa-thumbs-up"> Replies<badge class="bg-light text-success mx-2 p-2">4</badge> </i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply4">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3">
+                                            <div class="reply_img mx-2 align-items-center">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" alt="">
+                                            </div>
+                                            <div class="reply_text_left">
+                                                <p class="blog_title">
+                                                    <span class="font-weight-bold">Santhosh,</span><span> Aug 12, 2020, 7:20 PM</span>
+                                                </p>
+                                                <p> Awesome, Bro I like your practice.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- to get the right side of the div space -->
+                        <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+                            <div class="row gy-5 left_div_blog">
+                              <!-- about me part   -->
+                                <div class="col-12 about_me_div shadow">
+                                    <p> Basavaraj Aili</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit maxime fugiat tempora ipsam soluta quos quo ducimus a, quas harum repellat cumque laborum quibusdam? At!</p>
+                                </div>
+                                <!-- popular posts -->
+                                <div class=" popular_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Popular Posts</h2>
+                                    </div>
+                                    <div class="right_sub_div shadow">
+                                        <div class="row mx-1">
+                                            <div class="col-3 popular_post_img1 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Bill Gates</h3>
+                                                <p>CEO Microsoft</p>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-1">
+                                            <div class="col-3 popular_post_img2 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Mark Zuckerburg</h3>
+                                                <p class="text-capitalize">Programmer</p>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-1">
+                                            <div class="col-3 popular_post_img3 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Jeff Bezos</h3>
+                                                <p class="text-capitalize">Amazon</p>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-1">
+                                            <div class="col-3 popular_post_img4 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <h3>Steve Jobs</h3>
+                                                <p class="text-capitalize">Apple</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!---- advertise part ----->
+                                <div class="col-12 right_div_post">
+                                    <div class="col-12 right_div_title py-4 pl-2">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub_div">
+                                        <div class="advertise_img bg-light shadow">
+                                            <p>Ads display here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------  Tags  ------>
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub_div">
+                                        <a href="#" class="badge shadow text-capitalize">html</a>
+                                        <a href="#" class="badge shadow text-capitalize">css</a>
+                                        <a href="#" class="badge shadow text-capitalize">js</a>
+                                        <a href="#" class="badge shadow text-capitalize">react</a>
+                                        <a href="#" class="badge shadow text-capitalize">vue</a>
+                                        <a href="#" class="badge shadow text-capitalize">php</a>
+                                        <a href="#" class="badge shadow text-capitalize">python</a>
+                                        <a href="#" class="badge shadow text-capitalize">kotlin</a>
+                                        <a href="#" class="badge shadow text-capitalize">C++</a>
+                                        <a href="#" class="badge shadow text-capitalize">java</a>
+                                    </div>
+                                </div>
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub_div">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/3740739/pexels-photo-3740739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/3787573/pexels-photo-3787573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!----- follow us ----->
+                                <div class="right_div_post right_div__post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Follow us</h2>
+                                    </div>
+                                    <div class=" social_icons right_sub_div d-flex justify-content-around">
+                                        <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+                                        <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+                                        <a href="#"><i class="fab fa-github-square fa-3x"></i></a>
+                                        <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+                                        <a href="#"><i class="fa fa-youtube-square fa-3x"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+                                    </div>
+                                </div>
+                                <!----- subscribe news letter ----->
+                                <div class="right_div_post">
+                                    <div class="right_div_title py-4 pl-2">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub_div">
+                                        <form>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Enter your e-mail below and get notified on latest blog posts.</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@basava.com">
+                                              <small id="emailHelp" class="form-text text-muted"></small>
+                                            </div>
+                                            <button type="submit" class="subs_btn d-block">Submit</button>
+                                          </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="text-center py-4 bg-light"> Designed by Basavaraja Aili </p>
+        </footer>
+        
+
+                
+               
+
+        
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+        <script type="text/javascript">
+// navbar scripts
+         const menuBtn = document.querySelector(".menu-icon span");
+         const searchBtn = document.querySelector(".search-icon");
+         const cancelBtn = document.querySelector(".cancel-icon");
+         const items = document.querySelector(".nav-items");
+         const form = document.querySelector("form");
+         const stickyNav = document.querySelector('.nav_bar');
+         menuBtn.onclick = ()=>{
+             items.classList.add('active');
+             menuBtn.classList.add('hide');
+             searchBtn.classList.add('hide');
+             cancelBtn.classList.add('show');
+         }
+         cancelBtn.onclick = ()=>{
+             items.classList.remove('active');
+             menuBtn.classList.remove('hide');
+             searchBtn.classList.remove('hide');
+             cancelBtn.classList.remove('show');
+             form.classList.remove('active');
+             cancelBtn.style.color = "#ff3d00";
+         }
+         searchBtn.onclick = ()=>{
+             form.classList.add('active');
+             searchBtn.classList.add('hide');
+             cancelBtn.classList.add('show');
+         }
+         stickyNav.scrollTo = ()=>{
+             stickyNav.classList.add('sticky');
+         }     
+
+
+// // nav bar ends 
+
+
+
+            const reply = (res) => {
+            var res = document.getElementById(res);
+            console.log(res);
+            if(res.className == "replies"){
+                res.className = "basava_show";
+            }else if(res.className == "basava_show") {
+                res.className = "replies";
+            }
+        }
+
+        // like button js
+
+        // to get the id of like btn
+        const like = document.getElementById('like_btn');
+
+        const singleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#bbelfa';
+            like.style.color = '#1b262c';
+            like.innerHTML = ' ✔ liked'
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = 'like'
+        }
+
+    // 2 nd step to call the func on click and then on doubleClick
+        var clickCount = 0;
+
+        like.addEventListener('click', function() {
+            clickCount ++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+
+        </script>
+
+      </body>
+
+</html>
+
+
+
+
+
